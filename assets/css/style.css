@@ -19,6 +19,7 @@ body {
 }
 
 .instructions {
+    font-family: sans-serif;
     background-color: yellowgreen;
     width: 40%;
     text-align: center;
@@ -26,23 +27,34 @@ body {
     margin: 12px;
     padding: 10px;
     color: blue;
+    border-radius: 15px;
 }
 
 #title {
-    font-size: 50px;
+    font-size: 70px;
     margin: 12px;
     color: pink;
     padding: 20px;
+    background: -webkit-linear-gradient(pink, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-#rndInt {
+#box {
     background-color: cadetblue;
     width: 170px;
     height: 180px;
     margin: 12px;
     text-align: center;
     float: left;
+    border-radius: 15px;
     }
+
+#rndInt {
+    position: relative;
+    top: 50px;
+    font-size: 75px;
+}
 
 ul.results {
     background-color: red;
@@ -51,39 +63,40 @@ ul.results {
     padding: 12px;
     margin: 12px;
     display: inline-block;
+    border-radius: 15px;
 }
     
 #btn-1 {
     clear: all;
-    width: 30%;
+    padding: 0;
     width: 150px;
     height: 150px;
-    background-color: chartreuse;
     margin: 12px;
+    border-radius: 15px;
 }
 
 #btn-2 {
-    width: 30%;
+    padding: 0;
     width: 150px;
     height: 150px;
-    background-color: chartreuse;
     margin: 12px;
+    border-radius: 15px;
 }
 
 #btn-3 {
-    width: 30%;
+    padding: 0;
     width: 150px;
     height: 150px;
-    background-color: chartreuse;
     margin: 12px;
+    border-radius: 15px;
 }
 
 #btn-4 {
-    width: 30%;
+    padding: 0;
     width: 150px;
     height: 150px;
-    background-color: chartreuse;
     margin: 12px;
+    border-radius: 15px;
 }
 
 #total-score {
@@ -91,6 +104,20 @@ ul.results {
     margin: 12px; 
     width: 15%;
     padding: 12px;
+    border-radius: 15px;
 }
 
+  img {
+    margin: none;
+    width: 150px;
+    height: 150px;
+    border: solid 7px;
+    border-color: blue ;
+    opacity: .7;
+    border-radius: 15px;
+}
 
+img:hover {
+    opacity: 1;
+    border-color: black;
+}
