@@ -40,25 +40,25 @@ $(document).ready(function () {
     $("#btn-1").click(function () {
         playerTotal = playerTotal + btn1
         $("#total-score").html("Total score: " + playerTotal)
-        $("#winLoss").fadeIn(10000).html("Win-Lose?");
+        $("#winLoss").html("Win-Lose?");
     });
 
     $("#btn-2").click(function () {
         playerTotal = playerTotal + btn2
         $("#total-score").html("Total score: " + playerTotal)
-        $("#winLoss").fadeIn(10000).html("Win-Lose?");
+        $("#winLoss").html("Win-Lose?");
     });
 
     $("#btn-3").click(function () {
         playerTotal = playerTotal + btn3
         $("#total-score").html("Total score: " + playerTotal)
-        $("#winLoss").fadeIn(10000).html("Win-Lose?");
+        $("#winLoss").html("Win-Lose?");
     });
 
     $("#btn-4").click(function () {
         playerTotal = playerTotal + btn4
         $("#total-score").html("Total score: " + playerTotal)
-        $("#winLoss").fadeIn(10000).html("Win-Lose?");
+        $("#winLoss").html("Win-Lose?");
     });
     
     // on.click function, conditionals, display messages, win/loss tracking, and call reset  
